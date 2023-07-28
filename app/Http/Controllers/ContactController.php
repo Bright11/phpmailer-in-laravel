@@ -27,7 +27,7 @@ class ContactController extends Controller
                 $mail->Host = 'smtp.gmail.com';
                 $mail->SMTPAuth = true;
                 $mail->Username = 'brightevuka2017@gmail.com';//'brightevuka2017@gmail.com';
-                $mail->Password = 'Myfather';
+                $mail->Password = '';
                 $mail->SMTPSecure = "tls";//PHPMailer::ENCRYPTION_STARTTLS;
                 $mail->port = 587;
                 $mail->setFrom('brightevuka2017@gmail.com', $req->name);
